@@ -11,7 +11,7 @@ if (window.products) {
 }
 
 // fetch cart
-get('/api/cart')
+get('/public/server/db.json')
   .then(c => {
     cart = c.map(x => x.id);
     render(products, cart);
@@ -85,7 +85,7 @@ function post(url, data, headers = {}) {
 }
 
 function fetchProducts() {
-  get('/api/products')
+  get('./public/server/db.json')
     .then(p => {
       products = p;
       render(p, cart);
@@ -163,7 +163,7 @@ function renderProduct({ name, id, price, description }, cart) {
       Buy
     `;
     $button.addEventListener('click', () => {
-      post('/api/cart', { id }).then(res => {
+      post('/api/products', { id }).then(res => {
         if (res.status === 201) {
           cart.push(id);
           render(products, cart);
