@@ -1,0 +1,25 @@
+{
+  "name": "nodehapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NancyBabich/node-hapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NancyBabich/node-hapi/issues"
+  },
+  "homepage": "https://github.com/NancyBabich/node-hapi#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "hapi": "^16.6.2",
+    "inert": "^4.2.1",
+    "vision": "^4.1.1"
+  }
+}
