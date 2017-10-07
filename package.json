@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --single-quote --write ./public/**/*.js",
+    "prettier": "prettier --single-quote --write ./app/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
