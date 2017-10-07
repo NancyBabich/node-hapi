@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Laptop",
+      "price": 13545,
+      "description": "Best price for a decent budget laptop."
+    },
+    {
+      "id": 1,
+      "name": "iPad",
+      "price": 23000,
+      "description": "Excellent quality and great price!"
+    },
+    {
+      "id": 9,
+      "name": "TV",
+      "price": 70000,
+      "description": "Huge, bright display and amazing sound."
+    },
+    {
+      "id": 5,
+      "name": "a",
+      "description": "a",
+      "price": 500
+    },
+    {
+      "id": 55,
+      "name": "Hello",
+      "description": "World",
+      "price": 500
+    },
+    {
+      "id": 123,
+      "name": "asdf",
+      "description": "asdf",
+      "price": 5500
+    }
+  ],
+  "cart": []
+}

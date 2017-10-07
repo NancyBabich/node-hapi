@@ -16,6 +16,18 @@
       placeholder="Search..."
     >
     <div class="products"></div>
+    <form class="products__form">
+      <h3>New product</h3>
+      <input type="number" name="id" placeholder="Id" required>
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="text" name="description" placeholder="Description" required>
+      <input type="number" name="price" placeholder="Price" required>
+      <input type="text" name="token" placeholder="Authorization token">
+
+      <button>
+        &oplus; Add Product
+      </button>
+    </form>
     <script>
       // You can inline your products here.
       window.products = null;

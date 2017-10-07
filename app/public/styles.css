@@ -53,3 +53,23 @@ h1 {
   border-radius: 3px;
   margin: 1rem 0.5rem;
 }
+.products__form {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  float: left;
+}
+.products__form h3 {
+  margin: 1rem 0.5rem;
+}
+.products__form input {
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+.products__form input, .products__form button {
+  padding: .5rem;
+  display: block;
+  margin: 1rem 0.5rem;
+  width: 250px;
+  box-sizing: border-box;
+}
